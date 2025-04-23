@@ -1,5 +1,7 @@
 # Email-phishing-detection
 In the present repository are all the data for testing / running our solution.
+In each folder, in the file index, it is a brief description of the items present
+in that specific folder
 
 "Libraries used in the project" - it is a list with all the libraries used in our script;
 
