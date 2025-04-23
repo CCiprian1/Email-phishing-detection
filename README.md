@@ -11,7 +11,7 @@ In this repository we have three scripts that performs email phishind detection,
 * Llama - where we use only the Llama model ( the trained model) to identify and to report the nature of an Email as
 Safe or Phishing
 * Bayes Classifiers - a classical approach without the use of LLM's
-* hybrid solution - using trained Llama model, a set of trigger patterns and Bayes Classifiers. This solution also
+* Hybrid solution - using trained Llama model, a set of trigger patterns and Bayes Classifiers. This solution also
 uses the already trained model of Llama.
 
 
