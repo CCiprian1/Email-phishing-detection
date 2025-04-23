@@ -4,9 +4,8 @@ In each folder, in the file "index", it is a brief description of the items pres
 in that specific folder
 
 First thing it is to train the Llama model, which will be automatically saved on your local storage device.
-We recommned to have at least 17 Gb free space available for the model. We used the model available on 
-https://huggingface.co/meta-llama. The script will automatically retrive the model. In order to do this you must have
-a valid account on Hugging Face portal.
+We used the model available on https://huggingface.co/meta-llama (Llama-3.2-3B-Instruct). The script will 
+automatically retrive the model. In order to do this you must have a valid account on Hugging Face portal.
  
 In this repository we have three scripts that performs email phishind detection, as follows :
 * Llama - where we use only the Llama model ( the trained model) to identify and to report the nature of an Email as
@@ -27,12 +26,12 @@ In the presented folders :
                 Token categories - the categories defined by us based upon the most frequent used words
                 Trigger patterns - the list with the trigger patterns that will command the function of the script
     "scripts" - here are the scripts that we have used
-               ***** - for training the META-Llama model for email phishing detection
-               ***** - for testing the performance of the META-Llama model in identifing the nature of an email:
-               Safe EMail / Phishing Email
-               **** - for testing the performance of Bayes classifiers in identifing the nature of an email:
+               fine_tune_model.py - for training the META-Llama model for email phishing detection
+               Llama_solution.py - for testing the performance of the META-Llama model in identifing the nature of an email:
+               Safe Email / Phishing Email
+               Bayes_solution.py - for testing the performance of Bayes classifiers in identifing the nature of an email:
                Safe Mail / Phishing Email
-               **** - for testing the hybrid solution , proposed by us : running Llama, trigger phrasses and Bayes
+               Hybrid_solution.py - for testing the hybrid solution , proposed by us : running Llama, trigger phrasses and Bayes
                Classifiers
                
    
