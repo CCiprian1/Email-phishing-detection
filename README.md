@@ -29,3 +29,7 @@ In the presented folders :
     * either the Bayes Classifiers script
     * either the hybrid solution.
 
+Other considerations : 
+# code was written in Python (3.11) using PyCharm (IDE)
+# we also have used Cuda for GPU
+
