@@ -1,1 +1,12 @@
-in this folder are present the datasets used for testing the script
+In this folder are present the datasets used for testing the script
+Additional to the datasets present here, you will have to download the dataset from
+the link below : 
+https://www.kaggle.com/datasets/subhajournal/phishingemails
+The dataset will be used to train the Llama model.
+The file ********.csv it is used to test the functionality and the performance of the 
+Llama email phishing detection solution. This dataset has only 20 records.
+The file *******.csv it is used to test the functionality and the performance of:
+a) the Bayes classifiers solution
+b) the hybrid solution 
+This dataset has 1100 records
+
