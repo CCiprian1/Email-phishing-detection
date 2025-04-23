@@ -10,6 +10,15 @@ In the presented folders :
     "tokens" - are the tokens lists used in our solution.
                 Stop words - the stop words that we will not take into consideration
                 Token categories - the categories defined by us based upon the most frequent used words
-                Trigger patterns - the list with the trigger patterns that will command
+                Trigger patterns - the list with the trigger patterns that will command the function of the script
+    "scripts" - here are the scripts that we have used
+               ***** - for training the META-Llama model for email phishing detection
+               ***** - for testing the performance of the META-Llama model in identifing the nature of an email:
+               Safe EMail / Phishing Email
+               **** - for testing the performance of Bayes classifiers in identifing the nature of an email:
+               Safe Mail / Phishing Email
+               **** - for testing the hybrid solution , proposed by us : running Llama, trigger phrasses and Bayes
+               Classifiers
+               
                 
 
