@@ -1,2 +1,18 @@
 Here we have all the scripts used in our solution
 The filenames and a short description it is presented below : 
+
+* fine_tune_model.py - this is the script where we train the Llama model on the dataset
+that we have downloaded from hugging face portal. At the end, the new model will be saved
+on the local storage. 
+
+* Bayes_classifiers_solution.py - this is the script where we test the Bayes classifiers.
+This script is perfroming the tests on the dataset : "test_emails_big.csv"
+
+* Llama_solution.py - this is the script where we test how the trained model of Llama,
+obtained from the first script : "fine_tune_model.py" is performing in evaluating the
+nature of an email : safe or phishing. This script runs on the dataset : "test.csv"
+
+* Hybrid_solution.py - this is the script where we test our approach. We used the trained
+model of Llama from the first script "fine_tune_model.py", we are applying our trigger patterns
+and at the end we apply Bayes classifiers on the tokens obtained from Llama. This solution runs
+on the dataset : "test_emails_big.csv".
