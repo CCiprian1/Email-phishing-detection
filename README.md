@@ -22,5 +22,10 @@ In the presented folders :
                **** - for testing the hybrid solution , proposed by us : running Llama, trigger phrasses and Bayes
                Classifiers
                
-                
+    First thing it is to train the Llama model, which will be automatically saved on your local storage device.
+    We recommned to have at least 17 Gb free space available for the model.
+    After that you can : 
+    * either run the Llama email phishind detection 
+    * either the Bayes Classifiers script
+    * either the hybrid solution.
 
