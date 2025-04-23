@@ -1,0 +1,4 @@
+in this folder we have the followings :
+1. stop words -  a list with the words that we will not take into consideration
+2. categories - a list with a classification into categories of the tokens
+3. trigger patterns - a list with the "trigger patterns" that we will analyze
