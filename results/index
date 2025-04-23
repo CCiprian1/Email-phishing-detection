@@ -1,6 +1,6 @@
 In this folder we have hte results that we have obtained running the scripts.
 
 In the folder : "training" we have the plot of the training results of the Llama modelby running the script : "fine_tune_model.py"
-In the folder : "Bayes classifiers" we have the plots obtained by running the script: "Bayes_classifiers_solution.py"
+In the folder : "Bayes classifiers solution" we have the plots obtained by running the script: "Bayes_classifiers_solution.py"
 In the folder : "Llama solution" we have the plots obtained by running the script: "Llama_solution.py"
 In the folder : "Hybrid solution" we have the plots obtained by running the script : "Hybrid_solution.py"
