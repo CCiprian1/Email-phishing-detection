@@ -37,6 +37,6 @@ In the presented folders :
                
    
 Other considerations : 
-# code was written in Python (3.11) using PyCharm (IDE)
-# we also have used Cuda for GPU
+* code was written in Python (3.11) using PyCharm (IDE)
+* we also have used Cuda for GPU
 
