@@ -1,6 +1,6 @@
 # Email-phishing-detection
 In the present repository are all the data for testing / running our solution.
-In each folder, in the file index, it is a brief description of the items present
+In each folder, in the file "index", it is a brief description of the items present
 in that specific folder
 
 First thing it is to train the Llama model, which will be automatically saved on your local storage device.
