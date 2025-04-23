@@ -1,9 +1,0 @@
-# below it is a list with the stop words that I did not take into consideration
-when I made the analyze of safe email / phishing email
-stopwords = set([
-    "i", "you", "me", "my", "your", "yours", "he", "she", "it", "we", "they", "them", "us",
-    "is", "are", "was", "were", "be", "been", "to", "from", "in", "on", "of", "for", "with",
-    "at", "by", "a", "an", "the", "and", "or", "but", "if", "this", "that", "as", "so", "do",
-    "does", "did", "not", "no", "yes", "s", "x", "d", "all", "am", "n", "p", "v", "e", "o",
-    "t", "st", "l", "j", "ex", "mm", "begin_of_text", "m", "w", "f", "c", "h", "b", "r", "ou", "k", "g", "u"
-])
