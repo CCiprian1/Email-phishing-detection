@@ -23,11 +23,15 @@ In the presented folders :
                Classifiers
                
     First thing it is to train the Llama model, which will be automatically saved on your local storage device.
-    We recommned to have at least 17 Gb free space available for the model.
-    After that you can : 
-    * either run the Llama email phishind detection 
-    * either the Bayes Classifiers script
-    * either the hybrid solution.
+    We recommned to have at least 17 Gb free space available for the model. We used the model available on 
+    https://huggingface.co/meta-llama. The script will automatically retrive the model. In order to do this you must have
+    a valid account on Hugging Face portal.
+    In this repository we have three scripts that performs email phishind detection, as follows :
+    * Llama - where we use only the Llama model ( the trained model) to identify and to report the nature of an Email as
+    Safe or Phishing
+    * Bayes Classifiers - a classical approach without the use of LLM's
+    * hybrid solution - using trained Llama model, a set of trigger patterns and Bayes Classifiers. This solution also
+    uses the already trained model of Llama.
 
 Other considerations : 
 # code was written in Python (3.11) using PyCharm (IDE)
