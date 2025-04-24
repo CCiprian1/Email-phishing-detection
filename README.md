@@ -41,9 +41,9 @@ Other considerations :
 * code was written in Python (3.11) using PyCharm (IDE)
 * we also have used Cuda for GPU
 * system used : Asus Tuf Gaming F15 laptop, having the following configuration :
-             $ Intel i7-13620H 13th Generation processor;
-             $ 32 Gb of RAM in dual channel;
-             $ dedicated video card nVidia GeForce RTX4060 with 8 Gb of RAM, DDR6;
-             $ 2 nVme SSD : 1 Micron 500Gb for the operating system, 1 Samsung 990 PRO 2Tb for data;
-             $ Windows 11 Pro,Version 24H2.
+             ** Intel i7-13620H 13th Generation processor;
+             ** 32 Gb of RAM in dual channel;
+             ** dedicated video card nVidia GeForce RTX4060 with 8 Gb of RAM, DDR6;
+             ** 2 nVme SSD : 1 Micron 500Gb for the operating system, 1 Samsung 990 PRO 2Tb for data;
+             ** Windows 11 Pro,Version 24H2.
 
