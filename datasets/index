@@ -5,10 +5,10 @@ and to extract the file. Inside the archive it is the dataset that we have used,
 downloaded the from the link below : 
 https://www.kaggle.com/datasets/subhajournal/phishingemails
 
-The file test.csv it is used to test the functionality and the performance of the 
+The file "test.csv" it is used to test the functionality and the performance of the 
 Llama email phishing detection solution. This dataset has only 20 records.
 
-The file test_emails_big.csv it is used to test the functionality and the performance of:
+The file "test_emails_big.csv" it is used to test the functionality and the performance of:
 a) the Bayes classifiers solution
 b) the hybrid solution 
 This dataset has 1100 records
