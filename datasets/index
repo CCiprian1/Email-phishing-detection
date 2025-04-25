@@ -1,8 +1,9 @@
-In this folder are present the datasets used for testing the script
-Additional to the datasets present here, you will have to download the dataset from
-the link below : 
+In this folder are present the datasets used for testing the scripts.
+
+For training the Llama model, you will have to download the file : "training_emails.7z",
+and to extract the file. Inside the archive it is the dataset that we have used, 
+downloaded the from the link below : 
 https://www.kaggle.com/datasets/subhajournal/phishingemails
-The dataset will be used to train the Llama model.
 
 The file test.csv it is used to test the functionality and the performance of the 
 Llama email phishing detection solution. This dataset has only 20 records.
